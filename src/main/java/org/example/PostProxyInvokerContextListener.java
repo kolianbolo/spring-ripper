@@ -1,6 +1,6 @@
-package ru.bolobanov;
+package org.example;
 
-import ru.bolobanov.quoters.PostProxy;
+import org.example.quoters.PostProxy;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;

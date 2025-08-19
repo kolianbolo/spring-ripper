@@ -1,4 +1,4 @@
-package ru.bolobanov;
+package org.example;
 
 /*
 ProfilingControllerMBean - интерфейс, который позволит

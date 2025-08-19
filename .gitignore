@@ -1,6 +1,9 @@
 # build directory
 /target
 
+# idea metadata
+/.idea
+
 # Compiled class file
 *.class
 

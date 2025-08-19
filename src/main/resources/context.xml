@@ -13,11 +13,11 @@
      3. <context:component-scan base-package="ru.bolobanov"/>
      -->
     <context:annotation-config/>
-    <bean class="ru.bolobanov.quoters.TerminatorQuoter" id="terminatorQuoter">
+    <bean class="org.example.quoters.TerminatorQuoter" id="terminatorQuoter">
         <property name="message" value="I'll be back!"/>
     </bean>
 
-    <bean class="ru.bolobanov.InjectRandomInitAnnotationBeanPostProcessor"/>
-    <bean class="ru.bolobanov.ProfilingHandlerBeanPostProcessor"/>
-    <bean class="ru.bolobanov.PostProxyInvokerContextListener"/>
+    <bean class="org.example.InjectRandomInitAnnotationBeanPostProcessor"/>
+    <bean class="org.example.ProfilingHandlerBeanPostProcessor"/>
+    <bean class="org.example.PostProxyInvokerContextListener"/>
 </beans>

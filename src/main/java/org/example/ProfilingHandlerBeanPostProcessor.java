@@ -1,6 +1,6 @@
-package ru.bolobanov;
+package org.example;
 
-import ru.bolobanov.quoters.Profiling;
+import org.example.quoters.Profiling;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;
 

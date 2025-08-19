@@ -1,4 +1,4 @@
-package ru.bolobanov.quoters;
+package org.example.quoters;
 
 import jakarta.annotation.PostConstruct;
 

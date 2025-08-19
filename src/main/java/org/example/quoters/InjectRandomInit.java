@@ -1,9 +1,11 @@
-package ru.bolobanov.quoters;
+package org.example.quoters;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
 @Retention(RetentionPolicy.RUNTIME)
-public @interface PostProxy {
+public @interface InjectRandomInit {
+    int min();
 
+    int max();
 }
