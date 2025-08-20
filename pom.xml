@@ -56,7 +56,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>org.example.Application</mainClass>
+                            <mainClass>org.example.screensaver.JavaConfig</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
